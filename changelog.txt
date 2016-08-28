@@ -1,3 +1,65 @@
+4.11
+Russian language translation added
+
+4.1
+Evil Twin attack added: with integrated sniffing
+Log parsing for Evil Twin attack with sniffing
+
+4.03
+Some compatibility improvements for Raspberry Pi Raspbian Linux
+Additional check for systems which use airmon-zc, now checks for lspci to avoid errors
+Compatibility extended to OpenMandriva Linux
+Compatibility extended to Kali arm version on Raspberry Pi
+
+4.02
+New windows sizes calculation method for better viewing even in small resolutions. Dynamic system.
+Fixed bug restarting Network Manager on Arch Linux
+Fixed bug restarting Network Manager using debug mode on some distros
+Suggestion added about possible packet names after failing a dependency check
+
+4.01
+Fixed bug cleaning temp files for Evil Twin attack
+
+4.0
+Evil Twin attack added: Only AP to sniff with external sniffer
+Created under construction message for non finished menu options
+README.md beautified
+Screen resolution correction feature added for some distros
+Some minor improvements and bugfixes
+
+3.44
+Screen resolution detection for optimal windows viewing
+Some language strings changed
+Deleted ods translations file. It was impractical
+
+3.43
+Function created to generate dynamic separators on menus
+Some language strings changed
+
+3.42
+Compatibility extended to Arch Linux
+Compatibility extended to Raspbian Linux for Raspberry Pi
+Additional check for systems which use airmon-zc, now checks for ethtool to avoid errors
+Portuguese language translation added
+Auto-update can be disabled using a var (useful for repositories versions)
+Auto change language feature can be disabled using a var
+
+3.41
+Show network cards chipset while selecting interface
+Some language strings changed
+License updated to GPL3+
+Added Open Document SpreadSheet for easy translation to be used by collaborating translators
+System of prefixes and colors for hints and strings pending of translation [PoT]
+
+3.4
+Improved regexp to get new interface names after a change
+Fixed bug managing paths containing blank spaces
+New feature, drag and drop files on console window to entering file paths
+New offline decrypting attacks based on cpu hashcat (dictionary, bruteforce and rule based)
+Debug mode for faster development skipping intro and initial checks
+Bash version check improved for future versions
+Exit script code changes to differentiate when script was interrupted
+
 3.34
 Ascii art intro added on script startup (animated flying saucer!!)
 Bug fixed after putting card in monitor mode and the card name changed on some distros
