@@ -1,5 +1,49 @@
+5.01
+WPS bruteforce PIN attacks (reaver and bully)
+New system for arm architecture detection
+Compatibility extended to Parrot arm version on Raspberry Pi
+Some WPS attacks improvements
+Compatibility extended for hashcat v3.0 or higher
+
+5.0
+WPS attacks menu added
+WPS scanning based on wash tool. Self-parametrization to avoid "Bad FCS" problem
+WPS Custom pin association
+WPS Pixie Dust attacks integrated with reaver and bully
+Some code improvements
+
+4.32
+Some code improvements and refactors. Warnings removed based on shellcheck tool
+README.md small modifications
+Fix on language menu selecting greek language
+Fixed problem on renew_ifaces_and_macs_list function when there are interfaces without mac (like some tunnel interfaces)
+
+4.31
+Now optionally on Evil Twin captive portal attack you can choose between to have internet access or to use a "dns trick"
+Fixed bug writing handshake files on some paths
+Added possibility to get back to Evil Twin main menu from the internet interface selection menu
+
+4.3
+Evil Twin attack added: captive portal
+Some language strings changed
+Now initial forwarding state is restored on exit
+Fix for Linux which change interface name to a very different name while getting back to managed from monitor mode
+
+4.22
+Portuguese translation updated (Thank you to "Luan")
+Paypal donate button added on README.md
+Bitcoin hash changed and bitcoin donate button added on README.md
+Tested compatibility with Kali Linux 2016.2
+
+4.21
+Greek language translation added (Thank you to "xtonousou")
+
+4.2
+Evil Twin attack added: with integrated sniffing using sslstrip
+Evil Twin control window beautified and optimized for small windows
+
 4.11
-Russian language translation added
+Russian language translation added (Thank you to "MiAl")
 
 4.1
 Evil Twin attack added: with integrated sniffing
@@ -12,7 +56,7 @@ Compatibility extended to OpenMandriva Linux
 Compatibility extended to Kali arm version on Raspberry Pi
 
 4.02
-New windows sizes calculation method for better viewing even in small resolutions. Dynamic system.
+New windows sizes calculation method for better viewing even in small resolutions. Dynamic system
 Fixed bug restarting Network Manager on Arch Linux
 Fixed bug restarting Network Manager using debug mode on some distros
 Suggestion added about possible packet names after failing a dependency check
